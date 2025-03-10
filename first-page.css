@@ -68,10 +68,17 @@
     color: white;
     border-style: none;
     margin-right: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: grab;
 }
 .apply-button:hover{
-    
+    background-color: white;
+    color: #FF5C35
 }
+.learn-button:hover{
+   color: white; 
+}
+
 
 .learn-button{
     width: 264px;
@@ -82,6 +89,7 @@
     border-style: none;
     color: #686767;
     font-size: 32px;
+    transition: color 0.3s ease;
 }
 
 @keyframes soap{
