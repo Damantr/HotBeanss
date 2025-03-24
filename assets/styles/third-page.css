@@ -5,7 +5,7 @@
     width: calc(100% + 64px);
     transform: translateX(-32px);
     height: 291px;
-    background-image: url("bacground-third-page.webp");
+    background-image: url("../images/bacground-third-page.webp");
     justify-content: center;
     align-items: center;
 }
