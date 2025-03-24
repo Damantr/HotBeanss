@@ -54,8 +54,8 @@
 }
 @media(max-width:600px){
     .roy-raleigh{
-        width: 270px !important;
-        height: 373px !important;
+        width: 270px;
+        height: 373px;
     }
     .andrew-milburn{
         width: 270px;
@@ -68,6 +68,6 @@
 }
 @media(max-width:380px){
     .raleigh{
-        margin-left: 800px;
+        margin-left: 610px;
     }
 }
