@@ -1,13 +1,10 @@
 .logo{
     width: 81px;
     height: 85px;
-    padding-left: 40px;
 }
 .computer{
     max-width: 555px;
     max-height: 371px;
-    min-width: 311px;
-    min-height: 207px;
     border-radius: 30px;
 }
 .flex{
@@ -67,7 +64,7 @@
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 188, 75, 0.2) 100%), #FF5C35;
     border-radius: 12px;
     font-family: 'Roboto';
-    font-size: 32px;
+    font-size: clamp(16px, 5vw, 32px);
     color: white;
     border-style: none;
     margin-right: 30px;
@@ -91,7 +88,7 @@
     font-family: 'Roboto';
     border-style: none;
     color: #686767;
-    font-size: 32px;
+    font-size: clamp(16px, 5vw, 32px);
     transition: color 0.3s ease;
 }
 
@@ -106,6 +103,7 @@
 body{
     background-color: #ECECEC;
     scroll-behavior: smooth;
+    overflow-x: hidden
 }
 
 *{
@@ -123,13 +121,71 @@ body{
         height: 250px;
         gap: 2em;
     }
+    .text-on-homepage{
+        font-size: 40px;
+    }
+
+    .describtion{
+        font-size: 20px;
+    }
 
 }
 
+@media(max-width:988px){
+    .computer{
+        width: 375px;
+        height: 250px;
+        gap: 2em;
+        margin-bottom: 2em;
+        margin-top: 3em;
+    }
+    .text-on-homepage{
+        font-size: 36px;
+    }
 
+    .describtion{
+        font-size: 16px;
+    }
+    .flex-main{
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    .flex-image-right{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-text-left{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .button-flex{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.dropdown-menu-content{
+    background-color: #686767;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.dropdown-menu:active, .dropdown-menu-content{
+    display: inline-block;
+}
+.dropdown-menu{
+    display: none;
+}
 
 #home-page{
-    
+  
 }
 #first-page{
  
@@ -142,4 +198,36 @@ body{
 }
 #fourth-page{
    
+}
+@media(max-width:610px){
+    .dropdown-menu{
+        display: inline-block;
+    }
+    .flex-menu{
+        display: none;
+    }
+    .dropdown-menu-content{
+        display: none;
+    }
+}
+@media(max-width:500px){
+    .computer{
+        width: 272px;
+        height: 181px;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .logo{
+        width: 60px;
+        height: 63px;
+        margin-top: 10px;
+    }
+    
+}
+.dropdown-button{
+    display: flex;
+    margin-top: 20px;
+    width: 42px;
+    height: 42px;
+    z-index: 1;  
 }

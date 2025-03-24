@@ -1,10 +1,11 @@
 .meet-our-team{
+    margin-top: 35px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     font-family: 'Raleway';
-    font-size: 42px;
+    font-size: clamp(32px, 5vw, 42px);
     font-weight: 600;
 }
 .describtion-first-page{
@@ -13,7 +14,7 @@
     justify-content: center;
     text-align: center;
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: clamp(16px, 5vw, 24px);
     font-weight: 200;
     margin-bottom: 55px;
 }
@@ -29,11 +30,44 @@
 .first-page-text{
     font-family: 'Raleway';
     font-weight: 600;
-    font-size: 24px;
+    font-size: clamp(16px, 5vw, 24px);
 }
 .first-page-text-bottom{
     font-family: 'Raleway';
     font-weight: 600;
-    font-size: 24px;
+    font-size: clamp(16px, 5vw, 24px);
     color: gray;
+}
+@media(max-width:1400px){
+    .flexbox-first-page{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .raleigh{
+        margin-left: 200px;
+    }
+}
+@media(max-width:1051px){
+    .raleigh{
+        margin-left: 600px;
+    }
+}
+@media(max-width:600px){
+    .roy-raleigh{
+        width: 270px !important;
+        height: 373px !important;
+    }
+    .andrew-milburn{
+        width: 270px;
+        height: 373px;
+    }
+    .kaylie-albie{
+        width: 270px;
+        height: 373px;
+    }
+}
+@media(max-width:380px){
+    .raleigh{
+        margin-left: 800px;
+    }
 }
