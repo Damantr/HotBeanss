@@ -113,7 +113,7 @@ body{
 }
 .section{
     height: 100vh;
-    padding: 0 2em;
+    padding: 0 2rem;
 }
 @media(max-width:1200px){
     .computer{
@@ -197,7 +197,7 @@ html{
     
 }
 #fourth-page{
-   
+
 }
 @media(max-width:610px){
     .dropdown-menu{
