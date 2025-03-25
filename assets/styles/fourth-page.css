@@ -1,0 +1,30 @@
+
+.apply-button-last{
+    width: 264px;
+    height: 56px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 188, 75, 0.2) 100%), #FF5C35;
+    border-radius: 12px;
+    font-family: 'Roboto';
+    font-size: clamp(16px, 5vw, 32px);
+    color: white;
+    border-style: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: grab;
+    margin-top: 50px;
+}
+.flex-button-fourth-page{
+    display: flex;
+    justify-content: center;
+}
+.apply-button-last:hover{
+    background-color: white;
+    color: #FF5C35
+}
+.footer-flex{
+    margin: 0;
+}
+.footer{
+    width: 100%;
+    background-color: #FF5C35;
+    height: 284px;
+ }
