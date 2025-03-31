@@ -203,21 +203,6 @@ html{
     display: none;
 }
 
-#home-page{
-  
-}
-#first-page{
- 
-}
-#second-page{
-   
-}
-#third-page{
-    
-}
-#fourth-page{
-
-}
 @media(max-width:610px){
     .dropdown-menu{
         display: inline-block;
