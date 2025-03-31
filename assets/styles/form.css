@@ -43,7 +43,7 @@ label{
 input,textarea{
     display: flex;
     align-self: stretch;
-    margin-bottom: 25px;
+    margin-bottom: 7px;
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
     border-radius: 8px;

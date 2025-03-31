@@ -16,28 +16,35 @@
     <div class="right-side-flex">
         <p>Apply for a position</p>
         <div class="form-container">
-            <form action="">
+            <form action="" id="myForm">
                 <label for="name">Name:</label>
-                <input type="text" name="" id="">
+                <input type="text" name="" id="name">
+                <div class="error">Name has to be present</div>
 
                 <label for="surename">Surename:</label>
-                <input type="text" name="" id="">
+                <input type="text" name="" id="surename">
+                <div class="error">Surname has to be present</div>
 
                 <label for="email">Email:</label>
-                <input type="text" name="" id="">
+                <input type="text" name="" id="email">
+                <div class="error">Email has to be present and in correct format</div>
 
                 <label for="phone-number">Phone number:</label>
-                <input type="text" name="" id="">
+                <input type="text" name="" id="phone-number">
+                <div class="error">Phone has to be present and in correct format</div>
 
-                <label for="name">Select position:</label>
-                <input type="text" name="" id="">
+                <label for="position">Select position:</label>
+                <input type="text" name="" id="position">
+                <div class="error"></div>
 
-                <label for="name">Additional information about hard/soft skills:</label>
-                <textarea type="text" name="" id="" rows="4"></textarea>
+                <label for="additional-information">Additional information about hard/soft skills:</label>
+                <textarea type="text" name="" id="additional-information" rows="4"></textarea>
+                <div class="error"></div>
 
                 <button class="submit-button" type="submit">Submit</button>
             </form>
         </div>
     </div>
+    <script src="/scripts/validation.js"></script>
 </body>
 </html>
