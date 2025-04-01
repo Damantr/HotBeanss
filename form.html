@@ -8,38 +8,41 @@
 </head>
 <body>
     <div class="left-side-flex">
-        <p>Fill out our form, in order
+        <p class="describtion-header">Fill out our form, in order
             to join our community</p>
-        <p>Our hiring managers will process your application and
+        <p class="describtion-sub-header">Our hiring managers will process your application <br> and
             after a one week you will get a result. </p>
     </div>
     <div class="right-side-flex">
-        <p>Apply for a position</p>
+        <p class="apply-header">Apply for a position</p>
         <div class="form-container">
             <form action="" id="myForm">
                 <label for="name">Name:</label>
                 <input type="text" name="" id="name">
-                <div class="error">Name has to be present</div>
+                <div class="error" id="error-name">Name has to be present</div>
 
                 <label for="surename">Surename:</label>
                 <input type="text" name="" id="surename">
-                <div class="error">Surname has to be present</div>
+                <div class="error" id="error-surname">Surname has to be present</div>
 
                 <label for="email">Email:</label>
                 <input type="text" name="" id="email">
-                <div class="error">Email has to be present and in correct format</div>
+                <div class="error" id="error-email">Email has to be present and in correct format</div>
 
                 <label for="phone-number">Phone number:</label>
                 <input type="text" name="" id="phone-number">
-                <div class="error">Phone has to be present and in correct format</div>
+                <div class="error" id="error-number">Phone has to be present and in correct format</div>
 
                 <label for="position">Select position:</label>
-                <input type="text" name="" id="position">
-                <div class="error"></div>
+                <select class="dropdown">
+                    <option value="">Select an option</option>
+                    <option value="Option 1">Junior Frontend dev</option>
+                    <option value="Option 2">Junior Backend dev</option>
+                    <option value="Option 3">Junior DevOps</option>
+                </select>
 
                 <label for="additional-information">Additional information about hard/soft skills:</label>
                 <textarea type="text" name="" id="additional-information" rows="4"></textarea>
-                <div class="error"></div>
 
                 <button class="submit-button" type="submit">Submit</button>
             </form>

@@ -75,7 +75,43 @@ form{
     background-color: #FF5C35;
     color: white;
 }
-
-
-
-
+.error{
+    color: red;
+    opacity: 0;
+}
+.dropdown{
+    display: flex;
+    align-self: stretch;
+    margin-bottom: 7px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    padding: 12px;
+    align-items: center;
+}
+.apply-header{  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.describtion-header{
+    font-family: 'Raleway';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 0;
+}
+.describtion-sub-header{
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+}
