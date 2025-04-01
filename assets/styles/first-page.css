@@ -36,7 +36,7 @@
     font-family: 'Raleway';
     font-weight: 600;
     font-size: clamp(16px, 5vw, 24px);
-    color: gray;
+    color: #80250f;
 }
 @media(max-width:1400px){
     .flexbox-first-page{
@@ -70,4 +70,13 @@
     .raleigh{
         margin-left: 610px;
     }
+}
+.photo-describition{
+    margin-top: 7px;
+    display: flex;
+    width: 325px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: clamp(12px, 5vw, 14px);
+    color: rgb(78, 78, 78);
 }

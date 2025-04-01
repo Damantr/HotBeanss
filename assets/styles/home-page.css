@@ -52,7 +52,7 @@
 .flex-text-left{
     display: flex;
     flex-direction: column;
-    margin-right: 25px;
+    margin-right: 45px;
     padding-block: 14px ;
 }
 .button-flex{
