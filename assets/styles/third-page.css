@@ -25,13 +25,14 @@
     font-size: clamp(16px, 5vw, 24px);
     font-weight: 400;
     font-family: 'Raleway';
-    width: 500px;
-    text-align: center;
+    width: 900px;
+    text-align: start;
 
 }
 .main-text-third-page{
     display: flex;
     justify-content: center;
+    text-align: center;
     color: black;
     font-size: clamp(32px, 5vw, 42px);
     font-weight: 600;
@@ -59,6 +60,8 @@
 }
 .list-of-logos{
     display: flex;
+    flex: 1;
+    min-width: 0;
     gap: 27px;
 }
 .image-width{
@@ -82,4 +85,7 @@
         font-size: 12px;
         font-family: 'Raleway';
     }
+}
+.container{
+    width: 100%;
 }

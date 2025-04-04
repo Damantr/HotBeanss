@@ -68,7 +68,7 @@
 }
 @media(max-width:380px){
     .raleigh{
-        margin-left: 610px;
+        margin-left: 770px;
     }
 }
 .photo-describition{
@@ -77,6 +77,6 @@
     width: 325px;
     font-family: 'Raleway';
     font-weight: 500;
-    font-size: clamp(12px, 5vw, 14px);
+    font-size: clamp(12px, 5vw, 18px);
     color: rgb(78, 78, 78);
 }

@@ -107,13 +107,11 @@
 
 @media(max-width:600px){
     .first-element{
-        margin-left: 700px;
+        margin-left: 580px;
     }
 }
 @media(max-width:380px){
-    .first-element{
-        margin-left: 700px;
-    }
+
 	.square{
 		width: 250px;
 		height: 130px;
@@ -126,6 +124,11 @@
 		font-size: 12px;
 	}
 	.decription-text-on-form{
+		font-size: 14px;
+	}
+	.button-apply-secondpage{
+		width: 80px;
+		height: 40px;
 		font-size: 14px;
 	}
 }
