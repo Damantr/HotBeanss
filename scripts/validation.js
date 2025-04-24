@@ -1,11 +1,27 @@
 document.getElementById("myForm").addEventListener("submit", function(event){
     event.preventDefault();
     let isValid = validateForm();
-
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData.entries());
+    
     if (isValid){
-        alert("Form submitted successfully!");
-        this.reset();
-        clearErrors();
+        fetch('https://httpbin.org/post', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+          })
+          .then(res => res.json())
+          .then(result => {
+            console.log('Full response:', result);
+            alert("Form submitted successfully!");
+            this.reset();
+            clearErrors();
+          })
+          .catch(err => {
+            console.error('Error:', err);
+          });
     }
 });
 

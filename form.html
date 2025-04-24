@@ -22,24 +22,24 @@
         <p class="apply-header">Apply for a position</p>
         <div class="form-container">
             <form action="" id="myForm">
-                <label for="name">Name:</label>
-                <input type="text" name="" id="name">
+                <label for="name">&#42;Name:</label>
+                <input type="text" name="name" id="name">
                 <div class="error" id="error-name">Name has to be present</div>
 
-                <label for="surename">Surename:</label>
-                <input type="text" name="" id="surename">
+                <label for="surename">&#42;Surename:</label>
+                <input type="text" name="surename" id="surename">
                 <div class="error" id="error-surname">Surname has to be present</div>
 
-                <label for="email">Email:</label>
-                <input type="text" name="" id="email">
+                <label for="email">&#42;Email:</label>
+                <input type="text" name="email" id="email">
                 <div class="error" id="error-email">Email has to be present and in correct format</div>
 
-                <label for="phone-number">Phone number:</label>
-                <input type="text" name="" id="phone-number">
+                <label for="phone-number"> &#42;Phone number:</label>
+                <input type="text" name="phone-number" id="phone-number">
                 <div class="error" id="error-number">Phone has to be present and in correct format</div>
 
                 <label for="position">Select position:</label>
-                <select class="dropdown">
+                <select class="dropdown" name="dropdown">
                     <option value="">Select an option</option>
                     <option value="Option 1">Junior Frontend dev</option>
                     <option value="Option 2">Junior Backend dev</option>
@@ -47,7 +47,7 @@
                 </select>
 
                 <label for="additional-information">Additional information about hard/soft skills:</label>
-                <textarea type="text" name="" id="additional-information" rows="4"></textarea>
+                <textarea type="text" name="additional-information" id="additional-information" rows="4"></textarea>
 
                 <button class="submit-button" type="submit">Submit</button>
             </form>

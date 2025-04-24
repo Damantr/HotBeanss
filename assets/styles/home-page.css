@@ -2,6 +2,18 @@
     width: 81px;
     height: 85px;
 }
+.hot-beans-text{
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #D8591B;
+}
+.logo-text{
+    display: flex;
+}
 .computer{
     max-width: 555px;
     max-height: 371px;
@@ -92,9 +104,6 @@
     background-color: white;
     color: #FF5C35
 }
-.learn-button:hover{
-   color: white; 
-}
 
 
 .learn-button{
@@ -107,6 +116,9 @@
     color: #686767;
     font-size: clamp(16px, 5vw, 32px);
     transition: color 0.3s ease;
+}
+.learn-button:hover{
+    color: white; 
 }
 
 @keyframes soap{
@@ -297,6 +309,11 @@ html{
         display: inline;
     }
     .flex-menu{
+        display: none;
+    }
+}
+@media(max-width:760px){
+    .hot-beans-text{
         display: none;
     }
 }
