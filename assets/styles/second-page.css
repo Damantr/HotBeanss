@@ -105,13 +105,21 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:750px){
     .first-element{
         margin-left: 580px;
     }
 }
+@media(max-width:610px){
+    .first-element{
+        margin-left: 780px;
+    }
+}
 @media(max-width:380px){
 
+	.first-element{
+        margin-left: 580px;
+    }
 	.square{
 		width: 250px;
 		height: 130px;

@@ -120,7 +120,7 @@ form{
     .right-side-flex,
     .left-side-flex {
         width: 100%;
-        height: auto; /* Adjust height automatically */
+        height: auto; 
     }
 }
 .go-back{
