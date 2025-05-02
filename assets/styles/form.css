@@ -132,8 +132,8 @@ form{
     cursor: grab;
 }
 .go-back:hover{
-background-color: #FF5C35;
-color: #FF5C35
+    background-color: #FF5C35;
+    color: #FF5C35
 }
 @media(max-width: 530px){
     .form-container{
